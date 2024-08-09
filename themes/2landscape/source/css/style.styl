@@ -26,6 +26,7 @@ body
   margin: 0 auto
   padding: 0 gutter-width
 
+
 .inner
   column(columns)
 
@@ -60,6 +61,7 @@ if sidebar and sidebar isnt bottom
   #main
     @media mq-normal
       column(main-column)
+      min-height: calc(100vh - 218px - 238px)
 
 if sidebar is left
   @media mq-normal
