@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: 2landscape
+theme: hexo-theme-async
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -112,3 +112,24 @@ feed:
   charset: utf-8
 
 plugins: hexo-generate-feed
+
+live2d:
+  enable: true
+  # 推荐使用 CDN 来加载
+  scriptFrom: unpkg
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    # 推荐使用 CDN 来加载模型
+    use: https://unpkg.com/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json
+  display:
+    position: left
+    width: 150
+    height: 300
+  mobile:
+    show: true
+  react:
+    opacity: 0.7
