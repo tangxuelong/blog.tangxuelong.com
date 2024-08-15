@@ -28,6 +28,8 @@ favicon:
 assets:
   # The cdn configuration of the js inside the theme
   internal_provider: local
+  # cdn configuration of third-party js
+  third_party_provider: unpkg
   # The plug-in used by the theme
   plugin:
     hexo_theme_async:
