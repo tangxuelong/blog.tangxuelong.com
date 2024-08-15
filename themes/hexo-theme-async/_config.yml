@@ -37,7 +37,7 @@ assets:
       typing: js/plugins/typing.js
       search: js/plugins/local_search.js
 			danmu: js/plugins/danmu.js
-      main: js/main.js
+      main: js/script.js
   # Icon configuration
   icons: 
     type: font # font symbol
