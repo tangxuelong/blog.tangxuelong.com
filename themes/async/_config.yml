@@ -273,14 +273,13 @@ comment:
     reactions-enabled: 1
     emit-metadata: 0
     lang: zh-CN
-    theme: 
-      light: light
+    theme:
       dark: transparent_dark
 
 # Theme mode 
 theme: 
-  switch: true 
-  default: style-light # style-light style-dark
+  switch: false 
+  default: style-dark # style-light 
 
 # Service Worker
 sw: true
